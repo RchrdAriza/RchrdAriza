@@ -1,5 +1,5 @@
 # 💫 About Me:
-🐐🐧Linux enjoyer<br>💬Ask me about anything
+🐐🐧 Linux enjoyer<br>💬 Ask me about anything
 
 
 # 💻 Tech Stack:
