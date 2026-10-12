@@ -2,7 +2,7 @@ name: samsara.exe
 
 on:
   schedule:
-    - cron: "0 5 * * *" # once a day, midnight in Bogota
+    - cron: "0 0 * * *" # once a day
   workflow_dispatch:
 
 permissions:
@@ -14,7 +14,5 @@ jobs:
     steps:
       - uses: RchrdAriza/samsara-exe@v1
         with:
-          fx: halftone
-          forks: false
-          dark_output: "false"
+          dot: 3
           timezone: "America/Bogota"
