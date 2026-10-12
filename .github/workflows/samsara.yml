@@ -14,5 +14,7 @@ jobs:
     steps:
       - uses: RchrdAriza/samsara-exe@v1
         with:
+          fx: atkinson
+          palette: win95
           dot: 3
           timezone: "America/Bogota"
