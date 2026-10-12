@@ -1,0 +1,20 @@
+name: samsara.exe
+
+on:
+  schedule:
+    - cron: "0 5 * * *" # once a day, midnight in Bogota
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  samsara:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: RchrdAriza/samsara-exe@v1
+        with:
+          fx: halftone
+          forks: false
+          dark_output: "false"
+          timezone: "America/Bogota"
