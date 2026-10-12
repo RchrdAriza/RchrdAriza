@@ -1,8 +1,9 @@
 # About Me:
 
-<p align="center">
-  <a href="https://github.com/RchrdAriza/samsara-exe"><img alt="samsara.exe" src="https://github.com/RchrdAriza/RchrdAriza/raw/samsara/samsara.gif" width="360"></a>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/RchrdAriza/RchrdAriza/raw/samsara/samsara-dark.gif">
+  <img alt="samsara.exe" src="https://github.com/RchrdAriza/RchrdAriza/raw/samsara/samsara.gif">
+</picture>
 
 # Tech Stack:
 
