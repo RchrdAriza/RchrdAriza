@@ -12,7 +12,7 @@ jobs:
   samsara:
     runs-on: ubuntu-latest
     steps:
-      - uses: AdolfLecompte/samsara-exe@v1
+      - uses: RchrdAriza/samsara-exe@v1
         with:
           fx: floyd
           palette: win95
