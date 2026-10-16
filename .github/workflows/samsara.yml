@@ -12,9 +12,12 @@ jobs:
   samsara:
     runs-on: ubuntu-latest
     steps:
-      - uses: RchrdAriza/samsara-exe@v1
+      - uses: AdolfLecompte/samsara-exe@v1
         with:
-          fx: atkinson
+          fx: floyd
           palette: win95
           dot: 3
+          layout: landscape
+          name_style: shade
+          name_deco: columns
           timezone: "America/Bogota"
